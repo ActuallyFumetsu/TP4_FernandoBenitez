@@ -116,3 +116,54 @@ footer {
     transform: scale(1.2);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* Tabla de operaciones */
+.operations-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.operations-table th, .operations-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.operations-table thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    animation: header-animation 1s ease-in-out infinite alternate;
+}
+
+.operations-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Animación para encabezados */
+@keyframes header-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+/* Botones de operación */
+.operation-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.operation-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
