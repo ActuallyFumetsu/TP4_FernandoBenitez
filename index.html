@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - Proyecto Matemático</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="welcome-message">¡Bienvenido a mi proyecto de matemáticas!</h1>
+        <p id="user-welcome"></p>
+        <input type="text" id="username-input" placeholder="Ingresa tu nombre">
+        <button id="submit-button">Enviar</button>
+    </header>
+
+    <main>
+        <h2>Descripción de las páginas</h2>
+        <ul class="page-descriptions">
+            <li><strong>Página Principal:</strong> Una introducción al proyecto y acceso a las demas páginas.</li>
+            <li><strong>Galeria de Imágenes:</strong> Página de imágenes, req. confirmación de edad.</li>
+            <li><strong>Tabla de Cálculo:</strong> Tabla para calcular multiplicación, exponente y resta.</li>
+        </ul>
+
+        <div class="button-container">
+            <button class="animated-button" onclick="navigateTo('index.html')">Inicio</button>
+            <button class="animated-button" onclick="navigateTo('pagina1.html')">Galeria</button>
+            <button class="animated-button" onclick="navigateTo('pagina2.html')">Tabla</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fernando Benítez</p>
+    </footer>
+</body>
+</html>
