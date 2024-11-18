@@ -1,0 +1,95 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header input, header button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+/* Descripción de páginas */
+.page-descriptions {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.page-descriptions li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones animados */
+.button-container {
+    margin-top: 20px;
+}
+
+.animated-button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.animated-button:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+.animated-button:active {
+    background: #388e3c;
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
