@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Operaciones Interactivas</h1>
+        <p>Usa los botones para realizar las operaciones.</p>
+    </header>
+
+    <main>
+        <table class="operations-table">
+            <thead>
+                <tr>
+                    <th class="animated-header">Operación</th>
+                    <th class="animated-header">Descripción</th>
+                    <th class="animated-header">Botones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Multiplicación</td>
+                    <td>Multiplica dos números.</td>
+                    <td><button class="operation-btn" onclick="performMultiplication()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>Exponente 2</td>
+                    <td>Eleva un número al cuadrado.</td>
+                    <td><button class="operation-btn" onclick="calculateSquare()">Calcular</button></td>
+                </tr>
+                <tr>
+                    <td>Resta</td>
+                    <td>Resta dos números.</td>
+                    <td><button class="operation-btn" onclick="performSubtraction()">Calcular</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Botones de navegación -->
+        <div class="button-container">
+            <a href="index.html" class="styled-button">Inicio</a>
+            <a href="pagina1.html" class="styled-button">Galeria</a>
+            <a href="pagina2.html" class="styled-button">Tabla</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fernando Benítez</p>
+    </footer>
+</body>
+</html>
